@@ -1,6 +1,5 @@
 {
   "atom-workspace": {
-    "alt-shift-m": "molecule:show-panel",
     "alt-m": "molecule:hide-panel"
   }
 }
