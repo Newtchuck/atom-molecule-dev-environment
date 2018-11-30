@@ -27,3 +27,11 @@ export type MoleculeDiagnostic = Diagnostic & {
   path?: string,
   date?: number,
 };
+
+export type SortByPath = 1;
+
+export type SortByDate = 2
+
+export type SortDiagnosticsBy =
+  | SortByPath
+  | SortByDate;
